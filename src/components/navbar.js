@@ -30,6 +30,7 @@ const NavbarMenu = styled.ul`
   display: flex;
   list-style: none;
   flex-flow: row nowrap;
+  text-transform: uppercase;
   *:not(:last-child) {
     margin-right: 40px;
   }
@@ -52,13 +53,19 @@ const Navbar = () => {
                 </LogoContainer>
                 <NavbarMenu>
                     <NavbarItem>
-                        World
+                        Features
                     </NavbarItem>
                     <NavbarItem>
-                        World
+                        Pricing
                     </NavbarItem>
                     <NavbarItem>
-                        World
+                        Blog
+                    </NavbarItem>
+                    <NavbarItem>
+                        About
+                    </NavbarItem>
+                    <NavbarItem>
+                        Support
                     </NavbarItem>
                 </NavbarMenu>
             </NavbarContainer>

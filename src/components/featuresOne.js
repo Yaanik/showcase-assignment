@@ -5,7 +5,6 @@ import {
     H2,
     SubText
 } from '../globalStyles';
-import HeroGraphics from '../graphics/heroGraphics';
 import FeatureGraphics from '../graphics/featuresGraphics';
 
 const FeaturesContainer = styled(Container)`
